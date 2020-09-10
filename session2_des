@@ -1,0 +1,9 @@
+<?php
+session_start();
+echo "Username is:".$_SESSION['USER'];
+echo "Password is:".$_SESSION['PASS'];
+unset($_SESSION['USER']);
+unsert($_SESSION['PASS']);
+echo $_SESSION['PASS']);
+ 
+?>
